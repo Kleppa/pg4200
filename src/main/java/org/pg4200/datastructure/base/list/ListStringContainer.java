@@ -8,7 +8,7 @@ import org.pg4200.datastructure.base.StringContainerWithIndex;
 public class ListStringContainer implements StringContainerWithIndex {
 
     /*
-        For each "value" in the container, we create a Node object to contain it.
+        For each "value" in the container, we create a TreeNode object to contain it.
         Each node object will have a pointer to the next one in the list, apart
         from the last one (which will have "null")
      */

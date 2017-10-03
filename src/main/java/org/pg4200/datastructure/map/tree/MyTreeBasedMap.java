@@ -14,6 +14,8 @@ import org.pg4200.datastructure.map.MyMap;
  */
 public interface MyTreeBasedMap<K extends Comparable<K>, V> extends MyMap<K,V> {
 
+    TernaryTreeMap.TreeNode put(Comparable key, Object value, TernaryTreeMap.TreeNode node);
+
     int getMaxTreeDepth();
 
 }
